@@ -1,6 +1,7 @@
 # Table of contents
 
-* [1 🧘‍♂️ Preparation](README.md)
+* [Nybble Q User Manual](README.md)
+* [1 🧘‍♂️ Preparation](<README (1).md>)
 * [2 🧩 Open the Box](2-open-the-box.md)
 * [3 ⌨️ Board Setup](3-board-setup/README.md)
   * [Desktop App](3-board-setup/desktop-app.md)
@@ -39,3 +40,4 @@
 
 * [📚 Petoi Doc Center](https://docs.petoi.com)
 * [🙋 FAQ](https://docs.petoi.com/technical-support/faq-frequently-asked-questions)
+* [🔭 Official Site of Petoi](https://www.petoi.com)
