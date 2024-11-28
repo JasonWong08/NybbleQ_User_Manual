@@ -8,7 +8,7 @@ description: More cute and easier.
 
 Nybble Q is an open-source, voice-controlled robotic cat. It's a new breed of robotic cat that everyone can learn and play with.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/NybbleQ.png" alt=""><figcaption></figcaption></figure>
 
 The small but mighty Nybble Q has these fantastic features:
 
