@@ -11,14 +11,15 @@ echo "Updating submodule..."
 git submodule update --remote --merge "$SUBMODULE_PATH"
 
 # 检查子模块是否有更改
-if [ -n "$(cd "$SUBMODULE_PATH" && git status --porcelain)" ]; then
+if [ -n "$(cd "$SUBMODULE_PATH" && git diff-tree -r --submodule=diff HEAD)" ]; then
     echo "Submodule updated. Copying changes to main project..."
 
     # 选择性复制需要的文件
-    cp "$SUBMODULE_PATH/en/arduino-ide/upload-sketch-for-biboard.md" "$TARGET_DIR/3-board-setup/arduino-ide.md"
+    cp "en/arduino-ide/upload-sketch-for-biboard.md" "../$TARGET_DIR/3-board-setup/arduino-ide.md"
     # cp "$SUBMODULE_PATH/path/to/file2.md" "$TARGET_DIR/"
 
     # 提交更改
+	cd -
 	git add .
     #git add "$TARGET_DIR"
     git commit -m "Synced updates from submodule"
