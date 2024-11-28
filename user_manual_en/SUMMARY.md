@@ -11,7 +11,7 @@
   * [Desktop App](4-calibration/desktop-app.md)
   * [Mobile App](4-calibration/mobile-app.md)
   * [Arduino IDE](4-calibration/arduino-ide.md)
-* [5 🕹 Play with Bittle X](5-play-with-bittle-x/README.md)
+* [5 🕹 Play with Nybble Q](5-play-with-bittle-x/README.md)
   * [Voice Commands](5-play-with-bittle-x/voice-commands.md)
   * [Mobile App](5-play-with-bittle-x/mobile-app.md)
   * [Coding Blocks](5-play-with-bittle-x/coding-blocks.md)
@@ -32,7 +32,7 @@
       * [Model quantification](5-play-with-bittle-x/extensible-modules/advanced-development-and-application-of-ai-vision-modules/model-quantification.md)
       * [Model deployment](5-play-with-bittle-x/extensible-modules/advanced-development-and-application-of-ai-vision-modules/model-deployment.md)
       * [Training on the COCO DIY dataset](5-play-with-bittle-x/extensible-modules/advanced-development-and-application-of-ai-vision-modules/training-on-the-coco-diy-dataset.md)
-* [6 👨‍🏫 Teach Bittle X New Skills](6-teach-bittle-x-new-skills/README.md)
+* [6 👨‍🏫 Teach Nybble Q New Skills](6-teach-bittle-x-new-skills/README.md)
   * [Desktop App](6-teach-bittle-x-new-skills/desktop-app.md)
   * [Arduino Code](6-teach-bittle-x-new-skills/arduino-code.md)
 
