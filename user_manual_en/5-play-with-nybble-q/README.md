@@ -1,2 +1,2 @@
-# 5 🕹 Play with Bittle X
+# 5 🕹 Play with Nybble Q
 

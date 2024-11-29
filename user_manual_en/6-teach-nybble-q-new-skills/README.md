@@ -1,2 +1,2 @@
-# 6 👨‍🏫 Teach Bittle X New Skills
+# 6 👨‍🏫 Teach Nybble Q New Skills
 
