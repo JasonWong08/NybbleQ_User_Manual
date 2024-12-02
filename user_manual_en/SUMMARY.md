@@ -5,6 +5,7 @@
 * [2 🧩 Open the Box](2-open-the-box.md)
 * [3 ⌨️ Board Setup](3-board-setup/README.md)
   * [Desktop App](3-board-setup/desktop-app.md)
+  * [Arduino IDE](3-board-setup/arduino-ide.md)
 * [4 📐 Calibration](4-calibration/README.md)
   * [Principle](4-calibration/principle.md)
   * [Desktop App](4-calibration/desktop-app.md)
