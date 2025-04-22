@@ -102,7 +102,7 @@ b14 4 14 4 21 4 21 4
 
 ### 将新技能导入为自定义按钮 <a href="#jiang-xin-ji-neng-dao-ru-wei-zi-ding-yi-an-niu" id="jiang-xin-ji-neng-dao-ru-wei-zi-ding-yi-an-niu"></a>
 
-导入通过电脑本&#x5730;**（**[**技能创作坊**](https://docs.petoi.com/v/chinese/zhuo-mian-ying-yong/ji-neng-chuang-zuo-fang)**）**&#x521B;作的技能
+#### 导入本地创作的技&#x80FD;**（**[**技能创作坊**](https://docs.petoi.com/v/chinese/zhuo-mian-ying-yong/ji-neng-chuang-zuo-fang)**）**
 
 您可以使用通讯软件（比如微信）或电子邮件将电脑中创作的技能文件发送到您的手机，并使用 Petoi 应用程序在手机上打开该文件。此操作将自动为新技能创建一个按钮， 打开控制面板就可以看到。
 
@@ -111,6 +111,10 @@ b14 4 14 4 21 4 21 4
 **导入GitHub技能库中的技能**
 
 Github中的[SkillLibrary文件夹](https://github.com/PetoiCamp/OpenCat/tree/main/SkillLibrary)是OpenCat 机器人的新技能的集合，可以供您参考。您可以用手机浏览器访问OpenCat工程的GitHub页面，打开技能文件（比如 [Bittle\_Fold.md](https://github.com/PetoiCamp/OpenCat/blob/main/SkillLibrary/Bittle/Bittle_Fold.md)），将其分享到手机应用[Petoi](https://docs.petoi.com/v/chinese/shou-ji-ying-yong/zong-lan)，如下图所示，即可通过命令按钮来执行此技能。
+
+{% hint style="warning" %}
+在iOS设备中，您可能无法通过Chrome浏览器将Github网站上的技能文件直接分享到 Petoi 手机app。您可以在Chrome浏览器先下载技能文件到本机。然后再参照[导入本地创作的技能](kong-zhi-mian-ban.md#dao-ru-dian-nao-ben-di-ji-neng-chuang-zuo-fang-chuang-zuo-de-ji-neng)方法导入到到 Petoi 手机app中。
+{% endhint %}
 
 ![](https://docs.petoi.com/~gitbook/image?url=https%3A%2F%2F201656985-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MQ6a951Q6Jn1Zzt5Ajr-3369173170%252Fuploads%252FP8X85jLN6ax5VUZCdZVA%252FShare_skill01en.jpg%3Falt%3Dmedia%26token%3Ddd188c14-4022-439e-bd3d-3801b65286bf\&width=768\&dpr=4\&quality=100\&sign=7f567dcf\&sv=2)![](https://docs.petoi.com/~gitbook/image?url=https%3A%2F%2F201656985-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MQ6a951Q6Jn1Zzt5Ajr-3369173170%252Fuploads%252Fm6Pk4AZL5ejbfakQcQtx%252FShare_skill02en.jpg%3Falt%3Dmedia%26token%3D66a10b50-2037-4e15-bff1-dfc4bcc50ed0\&width=768\&dpr=4\&quality=100\&sign=d0a0d100\&sv=2)![](https://docs.petoi.com/~gitbook/image?url=https%3A%2F%2F201656985-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MQ6a951Q6Jn1Zzt5Ajr-3369173170%252Fuploads%252FfXEXIslXaa8Mfbgbpc0A%252FShare_skill03en.jpg%3Falt%3Dmedia%26token%3D8117d99b-1e4f-4b7c-b992-fa0a7c27ab3a\&width=768\&dpr=4\&quality=100\&sign=9d2d962d\&sv=2)![](https://docs.petoi.com/~gitbook/image?url=https%3A%2F%2F201656985-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MQ6a951Q6Jn1Zzt5Ajr-3369173170%252Fuploads%252FnCZeRbvfy91tiNnS7gD4%252FShare_skill04en.jpg%3Falt%3Dmedia%26token%3Dba669e72-155e-4290-b98b-973750d55e32\&width=768\&dpr=4\&quality=100\&sign=71ce1e4a\&sv=2)![](https://docs.petoi.com/~gitbook/image?url=https%3A%2F%2F201656985-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MQ6a951Q6Jn1Zzt5Ajr-3369173170%252Fuploads%252FSc4MngSiHf2xUJ7PRlVG%252FShare_skill05en.jpg%3Falt%3Dmedia%26token%3D193b522f-8592-4951-9ac7-b62e70504c72\&width=768\&dpr=4\&quality=100\&sign=5939580e\&sv=2)
 
