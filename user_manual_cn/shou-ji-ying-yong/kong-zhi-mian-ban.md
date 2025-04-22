@@ -2,15 +2,21 @@
 
 在控制面板中，您可以控制机器人执行各种姿势、行为和步态。
 
-<figure><img src="https://docs.petoi.com/~gitbook/image?url=https%3A%2F%2F201656985-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MQ6a951Q6Jn1Zzt5Ajr-3369173170%252Fuploads%252FdpFoz1NxDrWa5OUQ7RWZ%252Fimage.png%3Falt%3Dmedia%26token%3D41126ed0-f1ff-40bc-8f8d-f87a806b82eb&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=d40a5ca1&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image2.png" alt=""><figcaption></figcaption></figure>
 
 ## 步态 <a href="#bu-tai" id="bu-tai"></a>
 
-左侧面板设置机器宠物的步态和方向，并发送组合命令，例如“向左走”和“向前小跑”。 只有选择了初始步态和方向，机器宠物才会移动。 选择“踏步”，机器宠物只是原地踏步，当选择了“爬”，“行走”，“小跑”步态后，单击方向按钮“向后”之后，接着按“左”（或者“右”）按钮，可以让机器宠物向左后退（或者向右后退）。 暂停按钮 “**||**” 将暂停机器宠物的运动并关闭所有的舵机，以便您可以将关节旋转到任何角度。 “加速器”按钮（![](https://docs.petoi.com/~gitbook/image?url=https%3A%2F%2F96307915-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MQ6a951Q6Jn1Zzt5Ajr-3369173170%252Fuploads%252FtlIwwWX8RxgJckF3ELRu%252Fbalancer01.png%3Falt%3Dmedia%26token%3D6aa80902-18a8-4120-ab34-eabf1d5145ae\&width=300\&dpr=4\&quality=100\&sign=6688c8b\&sv=2)）用来打开/关闭 陀螺仪，这是一个检测机器宠物身体姿势的传感器。 开启它会使机器宠物不断调整身体角度，并且会知道它何时摔倒。 关闭它会减少计算，可以让它走得更快更稳定。
+①左侧面板设置机器宠物的步态和方向，并发送组合命令，例如“向左走”和“向前小跑”。 只有选择了初始步态和方向，机器宠物才会移动。 选择“踏步”，机器宠物只是原地踏步，当选择了“爬”，“行走”，“小跑”步态后，单击方向按钮“向后”之后，接着按“左”（或者“右”）按钮，可以让机器宠物向左后退（或者向右后退）。&#x20;
+
+②暂停按钮 “**||**” 将暂停机器宠物的运动并关闭所有的舵机，以便您可以将关节旋转到任何角度。&#x20;
+
+③“加速器”按钮（![](https://docs.petoi.com/~gitbook/image?url=https%3A%2F%2F96307915-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MQ6a951Q6Jn1Zzt5Ajr-3369173170%252Fuploads%252FtlIwwWX8RxgJckF3ELRu%252Fbalancer01.png%3Falt%3Dmedia%26token%3D6aa80902-18a8-4120-ab34-eabf1d5145ae\&width=300\&dpr=4\&quality=100\&sign=6688c8b\&sv=2)）用来加速机器宠物的行进。默认为关闭状态，按钮绿色、指针向左；点击按钮即可打开加速，按钮变为橙色、指针向右。&#x20;
+
+加速通过提高陀螺仪频率实现，因此如果关闭加速，机器人会减少内部数据计算，走得更快更稳定。
 
 ## 姿势和行为 <a href="#zi-shi-he-hang-wei" id="zi-shi-he-hang-wei"></a>
 
-内置的姿势和行为可以通过按下“**默认动作**”区域的按钮来触发。 建议不要过于频繁和重复地按下按钮。 给机器宠物一些时间来完成它当前的任务。
+④内置的姿势和行为可以通过按下“**功能键**”区域的按钮来触发。 建议不要过于频繁和重复地按下按钮。 给机器宠物一些时间来完成它当前的动作。
 
 ## 自定义命令 <a href="#zi-ding-yi-ming-ling-dong-zuo" id="zi-ding-yi-ming-ling-dong-zuo"></a>
 
@@ -30,15 +36,11 @@
 
 **\* 扭头 （旋转脖子舵机角度）**
 
-Copy
-
 ```
 m0 45
 ```
 
 **\* 左右扭动头部（移动 关节1 角度1 关节2 角度2 .... 角度为-127\~128）**
-
-Copy
 
 ```
 m0 -70 0 70
@@ -46,15 +48,11 @@ m0 -70 0 70
 
 **\* 坐**
 
-Copy
-
 ```
 ksit
 ```
 
 **\* 按顺序依次移动关节**
-
-Copy
 
 ```
 m 0 -70 0 70 8 -30
@@ -62,19 +60,15 @@ m 0 -70 0 70 8 -30
 
 **\* 同时移动多个关节**
 
-Copy
-
 ```
 i 0 -45 8 -30 12 -60
 ```
 
-以下是关节的索引供您参考。仔细观察排序的模式并试着记住它们。​
+供您参考，以下是关节的索引。您可以仔细观察排序的模式并试着记住它们。
 
 <figure><img src="https://docs.petoi.com/~gitbook/image?url=https%3A%2F%2F96307915-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MQ6a951Q6Jn1Zzt5Ajr-3369173170%252Fuploads%252FcvLvYuJ2JHENBgcW7mNC%252Findexes.png%3Falt%3Dmedia%26token%3D018e64f0-7a6e-4277-ad3c-ae39268f2a82&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=221c1ac5&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
 **\* 显示当前关节角度**
-
-Copy
 
 ```
 j
@@ -82,31 +76,23 @@ j
 
 **\* 长“喵”一声 (Nybble)**
 
-Copy
-
 ```
 u0 1
 ```
 
 **\* 短“喵”三声 (Nybble)**
 
-Copy
-
 ```
 u2 20
 ```
 
-**\* 播放短音（蜂鸣音 持续时间，持续时间为 0\~256）**
-
-Copy
+**\* 播放短音（蜂鸣音 持续时间为 0\~256）**
 
 ```
 b12 100
 ```
 
 **\* 播放旋律（b音调 1 持续时间 1，音调 2 持续时间 2，音调 3 持续时间 3，.... 仅允许 64 个字符，其中持续时间为数字的倒数，即记谱法中的“几分之一音符”）**
-
-Copy
 
 ```
 b14 4 14 4 21 4 21 4
@@ -116,7 +102,7 @@ b14 4 14 4 21 4 21 4
 
 ### 将新技能导入为自定义按钮 <a href="#jiang-xin-ji-neng-dao-ru-wei-zi-ding-yi-an-niu" id="jiang-xin-ji-neng-dao-ru-wei-zi-ding-yi-an-niu"></a>
 
-**导入本地创作的技能（**[**技能创作坊**](https://docs.petoi.com/v/chinese/zhuo-mian-ying-yong/ji-neng-chuang-zuo-fang)**）**
+导入通过电脑本&#x5730;**（**[**技能创作坊**](https://docs.petoi.com/v/chinese/zhuo-mian-ying-yong/ji-neng-chuang-zuo-fang)**）**&#x521B;作的技能
 
 您可以使用通讯软件（比如微信）或电子邮件将电脑中创作的技能文件发送到您的手机，并使用 Petoi 应用程序在手机上打开该文件。此操作将自动为新技能创建一个按钮， 打开控制面板就可以看到。
 
@@ -128,7 +114,7 @@ Github中的[SkillLibrary文件夹](https://github.com/PetoiCamp/OpenCat/tree/ma
 
 ![](https://docs.petoi.com/~gitbook/image?url=https%3A%2F%2F201656985-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MQ6a951Q6Jn1Zzt5Ajr-3369173170%252Fuploads%252FP8X85jLN6ax5VUZCdZVA%252FShare_skill01en.jpg%3Falt%3Dmedia%26token%3Ddd188c14-4022-439e-bd3d-3801b65286bf\&width=768\&dpr=4\&quality=100\&sign=7f567dcf\&sv=2)![](https://docs.petoi.com/~gitbook/image?url=https%3A%2F%2F201656985-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MQ6a951Q6Jn1Zzt5Ajr-3369173170%252Fuploads%252Fm6Pk4AZL5ejbfakQcQtx%252FShare_skill02en.jpg%3Falt%3Dmedia%26token%3D66a10b50-2037-4e15-bff1-dfc4bcc50ed0\&width=768\&dpr=4\&quality=100\&sign=d0a0d100\&sv=2)![](https://docs.petoi.com/~gitbook/image?url=https%3A%2F%2F201656985-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MQ6a951Q6Jn1Zzt5Ajr-3369173170%252Fuploads%252FfXEXIslXaa8Mfbgbpc0A%252FShare_skill03en.jpg%3Falt%3Dmedia%26token%3D8117d99b-1e4f-4b7c-b992-fa0a7c27ab3a\&width=768\&dpr=4\&quality=100\&sign=9d2d962d\&sv=2)![](https://docs.petoi.com/~gitbook/image?url=https%3A%2F%2F201656985-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MQ6a951Q6Jn1Zzt5Ajr-3369173170%252Fuploads%252FnCZeRbvfy91tiNnS7gD4%252FShare_skill04en.jpg%3Falt%3Dmedia%26token%3Dba669e72-155e-4290-b98b-973750d55e32\&width=768\&dpr=4\&quality=100\&sign=71ce1e4a\&sv=2)![](https://docs.petoi.com/~gitbook/image?url=https%3A%2F%2F201656985-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MQ6a951Q6Jn1Zzt5Ajr-3369173170%252Fuploads%252FSc4MngSiHf2xUJ7PRlVG%252FShare_skill05en.jpg%3Falt%3Dmedia%26token%3D193b522f-8592-4951-9ac7-b62e70504c72\&width=768\&dpr=4\&quality=100\&sign=5939580e\&sv=2)
 
-同时欢迎您通过向[此文件夹](https://github.com/PetoiCamp/OpenCat/tree/main/SkillLibrary)发送合并请求来分享您的新技能。
+同时欢迎您通过向[此文件夹](https://github.com/PetoiCamp/OpenCat/tree/main/SkillLibrary)发送合并请求来分享您创作的新技能。
 
 ### 创建组合命令 <a href="#chuang-jian-zu-he-ming-ling" id="chuang-jian-zu-he-ming-ling"></a>
 
