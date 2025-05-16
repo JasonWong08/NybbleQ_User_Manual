@@ -20,13 +20,20 @@ description: 磨刀不误砍柴工
 
 ### 产品清单
 
-<figure><img src=".gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Product list 01.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 提示：Nybble Q是Fdm 3D打印的，Z轴强度有限。使用时请勿施加过大的力气，同时避免从桌子边缘掉下，可能会导致零件破损。
 {% endhint %}
 
 <table><thead><tr><th width="487.390625">名称</th><th>数量</th></tr></thead><tbody><tr><td>机器人主体：Nybble Q机器猫 </td><td>1</td></tr><tr><td>待组装件：尾巴/校准架零件</td><td>1</td></tr><tr><td>说明书：贴纸/明信片（背部含语音指令）/校准架说明书</td><td>1</td></tr><tr><td>工具：自攻螺丝刀/数据线</td><td>1</td></tr><tr><td>备用件：备用尾巴舵盘/备用舵机/树莓派支撑架/弹簧及螺丝</td><td>1</td></tr></tbody></table>
+
+{% hint style="info" %}
+在后续的批次中，我们将免费提供Nybble Q的测试支架。\
+
+
+<img src=".gitbook/assets/stand.png" alt="" data-size="original">
+{% endhint %}
 
 ### 组装
 
