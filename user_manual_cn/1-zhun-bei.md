@@ -80,7 +80,7 @@ description: 磨刀不误砍柴工
 
 ### 常用拆装件
 
-**电池**
+#### **电池**
 
 当电池没电（指示灯为红色）或者更换电池时，需要把电池从身体拆下来。
 
@@ -98,7 +98,7 @@ description: 磨刀不误砍柴工
 ![](<.gitbook/assets/image (18).png>)
 {% endhint %}
 
-**背壳**
+#### **背壳**
 
 {% hint style="warning" %}
 提示：请勿大力把背壳和身体分离，因为他们中间有触摸电路板的排线连接，大力会导致排线脱落甚至断裂
@@ -114,7 +114,7 @@ description: 磨刀不误砍柴工
 
 <figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
-**背壳触摸电路板**
+#### **背壳触摸电路板**
 
 一般情况下，不需要拆下背壳触摸的柔性电路板Fpc，如果您希望把背壳Fpc完全拆下，可参照以下步骤：
 
@@ -124,7 +124,7 @@ description: 磨刀不误砍柴工
 
 <figure><img src=".gitbook/assets/image (63).png" alt=""><figcaption><p>取下触摸Fpc操作</p></figcaption></figure>
 
-**侧板**
+#### **侧板**
 
 侧板是装饰件，可以遮挡机器人内部的舵机线。侧板通过卡扣和身体连接。
 
@@ -135,3 +135,10 @@ description: 磨刀不误砍柴工
 <figure><img src=".gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (11).png" alt="" width="563"><figcaption></figcaption></figure>
+
+#### **超声波模块**
+
+超声波模块应连接在第一个Grove口上。
+
+<figure><img src=".gitbook/assets/groveUltrasonic.jpg" alt=""><figcaption></figcaption></figure>
+
