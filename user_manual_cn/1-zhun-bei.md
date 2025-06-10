@@ -32,7 +32,9 @@ description: 磨刀不误砍柴工
 在后续的批次中，我们将免费提供Nybble Q的测试支架。\
 
 
-<img src=".gitbook/assets/stand.png" alt="" data-size="original">
+<img src=".gitbook/assets/stand.png" alt="" data-size="original">\
+我们已在网上公布了支架的3D打印件结构以及组装说明。如果你有3D打印机，你也可以自己打印。请查看此页面了解Nybble Q的校准支架：\
+https://makerworld.com/en/models/1504533-calibration-and-test-stand-for-nybble-q-robotprofileId-1574352
 {% endhint %}
 
 ### 组装
