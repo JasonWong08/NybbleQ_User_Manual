@@ -8,7 +8,7 @@ description: “生活就像一盒巧克狸宝” 🔍
 
 为了避免舵机卡住，请把机器人的腿转动到正确的姿势，然后再开机。
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 使用场景
 
